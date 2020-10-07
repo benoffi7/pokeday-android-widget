@@ -7,7 +7,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.coffeeandcookies"
+        applicationId "com.coffeeandcookies.pokemondaywidget"
         minSdkVersion 23
         targetSdkVersion 30
         versionCode 1
