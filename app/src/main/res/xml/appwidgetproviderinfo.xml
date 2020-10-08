@@ -6,5 +6,6 @@
     android:previewImage="@mipmap/ic_launcher"
     android:initialLayout="@layout/layout_widget_home"
     android:resizeMode="horizontal|vertical"
+    android:configure="com.coffeeandcookies.pokemondaywidget.AppWidgetConfigureActivity"
     android:widgetCategory="home_screen">
 </appwidget-provider>

@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Pokemon del Día</string>
+    <string name="button_guardar_cambios">Guardar cambios</string>
+    <string name="text_probabilidad">Probabilidad</string>
+    <string name="text_activar_shinny">Activar Shinny</string>
+    <string name="text_macho">Macho</string>
+    <string name="text_hembra">Hembra</string>
+    <string name="text_seleccionar_genero">Selección de género</string>
+    <string name="text_config">Configuración</string>
+    <string name="text_pokemon_dia">Pokémon del día</string>
 </resources>

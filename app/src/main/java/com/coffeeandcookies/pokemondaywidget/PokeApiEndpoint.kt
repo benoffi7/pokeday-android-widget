@@ -7,5 +7,5 @@ import retrofit2.http.Path
 interface PokeApiEndpoint
 {
     @GET("/api/v2/pokemon/{pokemonId}")
-    fun getMovies(@Path("pokemonId")pokemonId: String): Call<Pokemon>
+    fun getPokemon(@Path("pokemonId")pokemonId: String): Call<Pokemon>
 }
