@@ -1,7 +1,6 @@
 package com.coffeeandcookies.pokemondaywidget
 
 import android.app.Application
-import com.coffeeandcookies.cursokotlin.util.Prefs
 
 class App : Application()
 {

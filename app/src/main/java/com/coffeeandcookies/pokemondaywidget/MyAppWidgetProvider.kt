@@ -14,7 +14,6 @@ import android.widget.RemoteViews
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
 import com.bumptech.glide.request.target.AppWidgetTarget
-import com.coffeeandcookies.cursokotlin.util.Prefs
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

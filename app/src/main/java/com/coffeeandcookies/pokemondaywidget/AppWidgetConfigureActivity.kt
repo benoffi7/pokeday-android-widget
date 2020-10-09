@@ -11,7 +11,6 @@ import android.widget.LinearLayout
 import android.widget.RemoteViews
 import androidx.appcompat.app.AppCompatActivity
 import com.bumptech.glide.Glide
-import com.coffeeandcookies.cursokotlin.util.Prefs
 import kotlinx.android.synthetic.main.activity_widget_configure.*
 
 class AppWidgetConfigureActivity : AppCompatActivity()
@@ -25,9 +24,9 @@ class AppWidgetConfigureActivity : AppCompatActivity()
 
         setResult(RESULT_CANCELED);
 
-         genderSelected = App.prefs.getByNameInt(Prefs.PREFS_GENDER_SELECTED)!!
+         genderSelected = App.prefs.getByNameInt(Prefs.PREFS_GENDER_SELECTED)
 
-        appWidgetId = App.prefs.getByNameInt(AppWidgetManager.EXTRA_APPWIDGET_ID)!!
+        appWidgetId = App.prefs.getByNameInt(AppWidgetManager.EXTRA_APPWIDGET_ID)
 
         if (genderSelected == 0)
         {
